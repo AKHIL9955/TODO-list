@@ -3,7 +3,8 @@ let tasklist = document.getElementById("tasklist")
 
 document.getElementById("add").onclick =function(){
     if(todoele.value.length==0){
-        alert("Enter a task details")
+        alert("Enter a task details");
+        return ;
     }
     else{
         tasklist.innerHTML = tasklist.innerHTML+`    
